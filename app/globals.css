@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0f;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Prose styling for blog content */
+.prose {
+  --tw-prose-body: rgba(255, 255, 255, 0.8);
+  --tw-prose-headings: #ffffff;
+  --tw-prose-links: #a855f7;
+  --tw-prose-bold: #ffffff;
+  --tw-prose-code: #a855f7;
+  --tw-prose-quotes: rgba(255, 255, 255, 0.7);
+  --tw-prose-quote-borders: rgba(168, 85, 247, 0.5);
+}
